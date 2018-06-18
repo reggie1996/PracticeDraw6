@@ -80,6 +80,7 @@ public class Sample01Translation extends RelativeLayout {
                 if (translationState == translationStateCount) {
                     translationState = 0;
                 }
+
             }
         });
     }

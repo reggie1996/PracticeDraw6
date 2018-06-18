@@ -89,12 +89,12 @@ public class Practice07Interpolator extends LinearLayout {
                         .withEndAction(new Runnable() {
                             @Override
                             public void run() {
-                                imageView.postDelayed(new Runnable() {
+                                postDelayed(new Runnable() {
                                     @Override
                                     public void run() {
-                                        imageView.setTranslationX(0);
+                                        imageView.animate().translationX(0);
                                     }
-                                }, 500);
+                                },500);
                             }
                         });
             }
